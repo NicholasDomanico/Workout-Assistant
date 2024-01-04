@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --red: #8b0f0f;
+    --font-color: #e8e8e8
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--red);
+    color: var(--font-color);
+}
