@@ -57,6 +57,16 @@
     background-color: white;
     box-shadow: 1px 1px 50px black;
     z-index: 99999;
-    
-    
+}
+
+.hidden {
+    opacity: 0%;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.visible {
+    opacity: 100%;
+    visibility: visible;
+    transition: 0.5s;
 }
