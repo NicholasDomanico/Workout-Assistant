@@ -8,6 +8,17 @@
     --font-color: #e8e8e8
 }
 
+.main-body {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, 20rem);
+    grid-auto-flow: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    width: 100vw;   
+
+}
+
 .main-header {
     display: flex;
     justify-content: center;
@@ -30,4 +41,22 @@
     border-radius: 0.5rem;
     border-color: var(--red);
     font-size: 2rem;
+}
+
+.popup {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    padding: 1rem;
+    border: 5px solid var(--red);
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 1px 1px 50px black;
+    z-index: 99999;
+    
+    
 }
