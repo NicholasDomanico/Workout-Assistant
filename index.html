@@ -11,21 +11,21 @@
         <h1 class="main-header__title">Workout Assistant</h1>
     </header>
 
+    <div id="opaque-background" class="hidden"></div>
+
     <section class="toolbar">
         <input id="add-workout-button" class="toolbar__button" type="button" value="+">
     </section>
-
-    <div id="opaque-background" class="hidden"></div>
 
     <main class="main-body">
         <div class="popup hidden" id="add-workout-popup">
             <label for="workout-name">Workout: </label>
             <input type="text" name="workout-name" class="popup__text-box">
-            <label for restTime>Rest Time: </label>
+            <label for="rest-time">Rest Time: </label>
             <input type="text" name="rest-time" class="popup__text-box">
             <label for="goal-reps">Goal Reps: </label>
             <input type="text" name="goal-reps" class="popup__text-box">
-            <input type="button" name="submit" class="popup__submit-button" value="Submit">
+            <input id="workout-submit-button" type="button" name="submit" class="popup__submit-button" value="Submit">
         </div>
 
         <div>1</div>
@@ -34,5 +34,8 @@
         <div>4</div>
         <div>5</div>
     </main>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
